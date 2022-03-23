@@ -1,0 +1,18 @@
+.dashboard {
+  width: 100vw;
+}
+.dashboard .sidebar {
+  height: 100%;
+  width: 320px;
+  background-color: #ebe9e9;
+  position: fixed;
+  overflow: hidden;
+  transition: 0.4s ease-in-out all;
+  box-shadow: 0 0 5px 5px #ccc4c4;
+}
+.dashboard .content {
+  transition: 0.4s ease-in-out all;
+  margin-left: 320px;
+}
+
+/*# sourceMappingURL=index.css.map */
