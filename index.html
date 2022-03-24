@@ -60,10 +60,10 @@
         
         <h1> Devices</h1>
         
-        <div class="widgets">
-          <div class="widget">Alarma    <i class="fa fa-plus"></i> </div>
-          <div class="widget">Dimmer    <i class="fa fa-plus"></i></div>
-          <div class="widget">Switch    <i class="fa fa-plus"></i></div>
+        <div class="widgets" id="widgets">
+          <div class="widget" id="Alarma">Alarma    <i class="fa fa-plus"></i> </div>
+          <div class="widget" id="Dimmer">Dimmer    <i class="fa fa-plus"></i></div>
+          <div class="widget" id="Switch">Switch    <i class="fa fa-plus"></i></div>
           <div class="widget">Microfono <i class="fa fa-plus"></i></div>
           <div class="widget">Bocina <i class="fa fa-plus"></i></div>
           <div class="widget">Color <i class="fa fa-plus"></i></div>
@@ -73,11 +73,12 @@
         
         <h1> 3D Printers & CNC</h1>
         
-        <div class="widgets">
+        <div class="widgets" id="Impresoras&CNC">
           <div class="widget">Prusa Mini </div>
           <div class="widget">CNC 3018</div>
           <div class="widget">Ender 3 S1</div>
           <div class="widget">Anet A8</div>
+          <div class="widget">Sunlu S8</div>
         </div>
         <div class="configuration">
           <i class="fa fa-gear" style="font-size: 35px"></i>
@@ -95,13 +96,14 @@
           </span>
         </button>
         <h1> Devices</h1>
-        <div class="widget-panel">
+        <div class="widget-panel" id="panel">    
           
-          <div class="widget-item x" id="widget">
+          <div class="widget-item x">
             <i class="fa fa-gear" style="font-size: 22px"></i>
             <div class="indicator" id="indicator"></div>
             Lampara
           </div>
+
         </div>
         <h1> 3D Printers & CNC Panel</h1>
         <div class="printer-panel">
@@ -109,9 +111,9 @@
       </div>
     </div>
 
+    <script src="https://cdn.jsdelivr.net/npm/sortablejs@latest/Sortable.min.js"></script>
     <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-
     <script src="scripts/index.js"></script>
   </body>
 </html>

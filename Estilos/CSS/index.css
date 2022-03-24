@@ -92,8 +92,11 @@ html[data-theme=dark] {
 }
 .dashboard .sidebar .widgets .widget:hover::after {
   transition: 0.2s ease-in-out all;
-  background-color: rgba(15, 101, 230, 0.534);
+  background-color: rgba(15, 101, 230, 0.952);
   width: 100%;
+}
+.dashboard .sidebar .widgets .widget:active::after {
+  background-color: rgba(119, 172, 221, 0.952);
 }
 .dashboard .sidebar .widgets .widget:hover {
   z-index: 1;
